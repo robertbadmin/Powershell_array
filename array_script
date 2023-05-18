@@ -1,0 +1,1 @@
+$packages = @("google.chrome","mozilla.firefox") foreach ($p in $packages) {winget install $p}
